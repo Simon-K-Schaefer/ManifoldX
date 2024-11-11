@@ -17,6 +17,19 @@ Rodrigues, J. P. G. L. M., Teixeira, J. M. C., Trellet, M. & Bonvin, A. M. J. J.
 pdb-tools: a swiss army knife for molecular structures. bioRxiv (2018).
 doi:10.1101/483305
 
+
+
+
+
+
+
+
+```bash
+bash ManifoldX PDB-reference chainA chainB
+```
+
+
+
 Authors:
 Simon Schäfer
 Anselm Horn
