@@ -2,7 +2,7 @@
 A wrapper and analysis pipeline for parallelized FoldX workflows. The pipeline involves file cleanup and repair, automated data curation, and a summary of results.
 
 
-
+## Dependencies
 #requires FoldX and a valid FoldX license as well as :
 https://foldxsuite.crg.eu/
 
@@ -19,8 +19,6 @@ doi:10.1101/483305
 
 
 
-
-
 Requirements:
 The pipeline requires input files in the pdb file format. This is a FoldX dependency requirement.
 Newer PDB entries wiht only mmcif entries can be converted utilising the gemmi tool.
@@ -31,14 +29,13 @@ https://project-gemmi.github.io/wasm/convert/cif2pdb.html
 Repository:
 https://github.com/project-gemmi/gemmi
 
+## How to Use
 
 ```bash
 bash ManifoldX PDB-reference chainA chainB
 ```
 
-
-
-Authors:
+## Authors
 Simon Schäfer
 Anselm Horn
 Manuel Deubler
