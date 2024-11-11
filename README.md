@@ -9,7 +9,9 @@ https://foldxsuite.crg.eu/
 #requires pdb-tools
 http://www.bonvinlab.org/pdb-tools/
 
+```bash
 pip install pdb-tools
+```
 
 Rodrigues, J. P. G. L. M., Teixeira, J. M. C., Trellet, M. & Bonvin, A. M. J. J.
 pdb-tools: a swiss army knife for molecular structures. bioRxiv (2018).
