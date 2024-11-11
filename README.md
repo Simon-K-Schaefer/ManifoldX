@@ -27,6 +27,7 @@ Newer PDB entries wiht only mmcif entries can be converted utilising the gemmi t
 
 Online Converter Tool:
 https://project-gemmi.github.io/wasm/convert/cif2pdb.html
+
 Repository:
 https://github.com/project-gemmi/gemmi
 
