@@ -26,7 +26,7 @@ Download ManifoldX folder and unzip files in the same folder.
 
 #Core/Thread counts have to be specified in the header section of ManifoldX.sh
 
-*Modify utilised Cores to according to system specificications (base version is set to 5 Threads).
+* Modify utilised Cores to according to system specificications (base version is set to 5 Threads).
 
 ## Validate Install
 
