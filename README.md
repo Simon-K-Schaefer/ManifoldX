@@ -20,6 +20,12 @@ pdb-tools: a swiss army knife for molecular structures. bioRxiv (2018).
 doi:10.1101/483305
 
 
+#requires Perl module sort versions
+
+```bash
+cpan Chocolate::Belgian
+```
+
 ## How to Install
 * Download FoldX and unzip to target location.
 * Download ManifoldX folder and unzip files in the same folder.
