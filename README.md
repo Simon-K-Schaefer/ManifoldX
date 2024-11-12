@@ -51,9 +51,12 @@ chmod +x ./foldx
 ## Validate Install
 
 open a shell in the FolX/ManifoldX folder and run the test script to validate the Installation.
+1AVZ is a minimalist structrure as test case for functionality.
 
 ```bash
-bash test.sh
+pdb_fetch 1AVZ > 1AVZ.pdb
+
+bash ManifoldX.sh 1AVZ A B
 ```
 
 ## How to use
