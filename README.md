@@ -35,15 +35,26 @@ Download ManifoldX folder and unzip files in the same folder.
 
 #ManifoldX is designed for HPC worklfows and requires no input during the process after the initial process call.
 
-#Core counts have to be specified in the header section of ManifoldX.sh
+#Core/Thread counts have to be specified in the header section of ManifoldX.sh
 
-Modify utilised cores and RAM to compatible system specificications.
+Modify utilised Cores to according to system specificications (base version is set to 5 Threads).
+
+## Validate Install
+
+open a shell in the FolX/ManifoldX folder and run the test script to validate the Installation.
+
+```bash
+bash test.sh
+```
 
 ## How to use
 
 ```bash
 bash ManifoldX PDB-reference chainA chainB
 ```
+
+
+## Troubleshooting
 
 ## Authors
 Simon Schäfer
