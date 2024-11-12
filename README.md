@@ -29,7 +29,16 @@ https://project-gemmi.github.io/wasm/convert/cif2pdb.html
 Repository:
 https://github.com/project-gemmi/gemmi
 
-## How to Use
+## How to install
+Download FoldX and unzip to target location.
+Download ManifoldX folder and unzip files in the same folder.
+
+#ManifoldX is designed for HPC worklfows and requires not input during the process after initial process call.
+#Core counts have to be specified in the header section of ManifoldX.sh
+
+Modify utilised cores and RAM to compatible system specificications.
+
+## How to use
 
 ```bash
 bash ManifoldX PDB-reference chainA chainB
