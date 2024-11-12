@@ -20,10 +20,10 @@ pdb-tools: a swiss army knife for molecular structures. bioRxiv (2018).
 doi:10.1101/483305
 
 
-#requires Perl module sort versions
+#requires Perl and the module Sort::Versions
 
 ```bash
-cpan Chocolate::Belgian
+cpan Sort::Versions
 ```
 
 ## How to Install
