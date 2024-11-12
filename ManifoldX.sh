@@ -190,7 +190,5 @@ rm -r ./config/
 rm $file.fasta
 rm $file.pdb
 rm $file-reres.pdb
-for i in output-pipe-*/output/A*/ ; do rm -r $i ; done
-
 
 
