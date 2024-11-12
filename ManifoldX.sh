@@ -15,6 +15,12 @@
 # To install
 #python setup.py install
 
+#----------------------------------------
+#----------------------------------------
+# Set your desired number of threads here
+threads=5
+#----------------------------------------
+#----------------------------------------
 
 file="$1"
 chain1=$2
@@ -156,7 +162,7 @@ done
 
 
 ### run foldX for every config file as loop - neccessary because of bug in foldX batch modes
-ls ./config/* | parallel -j 10 ./foldx -f
+ls ./config/* | parallel -j "$threads" ./foldx -f
 wait
 
 ### move output from optimization step
