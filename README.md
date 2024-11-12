@@ -1,6 +1,8 @@
 # ManifoldX
 A wrapper and analysis pipeline for parallelized FoldX workflows. The pipeline involves file cleanup and repair, automated data curation, and a summary of results.
 
+## Hardware Requirements
+ManifoldX scales with 
 
 ## Dependencies
 #requires FoldX and a valid FoldX license as well as :
@@ -18,7 +20,7 @@ pdb-tools: a swiss army knife for molecular structures. bioRxiv (2018).
 doi:10.1101/483305
 
 
-## How to install
+## How to Install
 * Download FoldX and unzip to target location.
 * Download ManifoldX folder and unzip files in the same folder.
 
@@ -26,7 +28,7 @@ doi:10.1101/483305
 
 #Core/Thread counts have to be specified in the header section of ManifoldX.sh
 
-* Modify utilised Cores to according to system specificications (base version is set to 5 Threads).
+* Modify utilised cores to according to system specificications (Standard is set to 5 Threads).
 
 ## Validate Install
 
