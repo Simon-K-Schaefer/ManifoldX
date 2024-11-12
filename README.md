@@ -2,7 +2,7 @@
 A wrapper and analysis pipeline for parallelized FoldX workflows. The pipeline involves file cleanup and repair, automated data curation, and a summary of results.
 
 ## Hardware Requirements
-ManifoldX scales with 
+ManifoldX scales with CPU core counts and hardware requirements scale accordingly. CPU core counts can be set and X GB of RAM are reserved per CPU core.
 
 ## Dependencies
 #requires FoldX and a valid FoldX license as well as :
