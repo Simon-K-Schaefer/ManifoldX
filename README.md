@@ -19,8 +19,8 @@ doi:10.1101/483305
 
 
 ## How to install
-Download FoldX and unzip to target location.
-Download ManifoldX folder and unzip files in the same folder.
+* Download FoldX and unzip to target location.
+* Download ManifoldX folder and unzip files in the same folder.
 
 #ManifoldX is designed for HPC worklfows and requires no input during the process after the initial process call.
 
