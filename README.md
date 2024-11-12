@@ -33,7 +33,8 @@ https://github.com/project-gemmi/gemmi
 Download FoldX and unzip to target location.
 Download ManifoldX folder and unzip files in the same folder.
 
-#ManifoldX is designed for HPC worklfows and requires not input during the process after initial process call.
+#ManifoldX is designed for HPC worklfows and requires no input during the process after the initial process call.
+
 #Core counts have to be specified in the header section of ManifoldX.sh
 
 Modify utilised cores and RAM to compatible system specificications.
