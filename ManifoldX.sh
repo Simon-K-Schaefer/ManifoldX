@@ -1,6 +1,7 @@
 #!/bin/bash
+#ManifoldX
 #version 1.1
-#written by S. K. Schaefer
+#written by S. K. Schaefer, Anselm Horn, Manuel Deubler
 
 #requires pdb-tools
 #Rodrigues, J. P. G. L. M., Teixeira, J. M. C., Trellet, M. & Bonvin, A. M. J. J.
