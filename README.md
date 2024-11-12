@@ -42,11 +42,11 @@ apt-get install parallel
 chmod +x ./foldx
 ```
 
-#ManifoldX is designed for HPC worklfows and requires no input during the process after the initial process call.
+#ManifoldX is designed for HPC workflows and requires no input during the process after the initial process call.
 
 #Core/Thread counts have to be specified in the header section of ManifoldX.sh
 
-* Modify utilised cores to according to system specificications (Standard is set to 5 Threads).
+* Modify utilised cores to according to system specificications in the header section of ManifoldX.sh (Standard is set to 5 threads).
 
 ## Validate Install
 
