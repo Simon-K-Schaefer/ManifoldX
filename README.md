@@ -1,7 +1,7 @@
 # ManifoldX
-A wrapper and analysis pipeline for parallelized FoldX workflows. The pipeline involves file cleanup and repair, automated data curation, and a summary of results.
-This Version of the Piple utilises FoldX PSSM algoritm to substitute subsequently every position in interacting proteins cahin with Ala and calculates the interaction energies between
-both proteins chains. This identifies important interaction residues in an automated way to map protein protein interfaces. 
+A wrapper and analysis pipeline for parallelized FoldX workflows to analyse 3 dimensional protein complex structures. The pipeline involves file cleanup and repair, automated data curation, and a tabular summary of results.
+This Version of the Piple utilises FoldX PSSM algoritm to substitute subsequently every position in 2 interacting proteins chains with Ala to calculates the interaction energies between
+both proteins. This identifies important interaction residues in an automated way to map protein protein interfaces. 
 
 ## Hardware Requirements
 ManifoldX scales with CPU core counts and hardware requirements scale accordingly. CPU core counts can be set and X GB of RAM are reserved per CPU core.
