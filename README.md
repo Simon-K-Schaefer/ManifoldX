@@ -18,17 +18,6 @@ pdb-tools: a swiss army knife for molecular structures. bioRxiv (2018).
 doi:10.1101/483305
 
 
-
-Requirements:
-The pipeline requires input files in the pdb file format. This is a FoldX dependency requirement.
-Newer PDB entries wiht only mmcif entries can be converted utilising the gemmi tool.
-
-Online Converter Tool:
-https://project-gemmi.github.io/wasm/convert/cif2pdb.html
-
-Repository:
-https://github.com/project-gemmi/gemmi
-
 ## How to install
 Download FoldX and unzip to target location.
 Download ManifoldX folder and unzip files in the same folder.
@@ -48,6 +37,15 @@ bash test.sh
 ```
 
 ## How to use
+
+The pipeline requires input files in the pdb file format. This is a FoldX dependency requirement.
+Newer PDB entries wiht only mmcif entries can be converted utilising the gemmi tool.
+
+Online Converter Tool:
+https://project-gemmi.github.io/wasm/convert/cif2pdb.html
+
+Repository:
+https://github.com/project-gemmi/gemmi
 
 ```bash
 bash ManifoldX PDB-reference chainA chainB
