@@ -11,9 +11,6 @@
 #git clone https://github.com/haddocking/pdb-tools
 #cd pdb-tools
 
-# To update
-#git pull origin master
-
 # To install
 #python setup.py install
 
