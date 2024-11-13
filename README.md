@@ -51,7 +51,7 @@ chmod +x ./foldx
 ## Validate Install
 
 open a shell in the FolX/ManifoldX folder and run the test script to validate the Installation.
-1AVZ is a minimalist structrure as test case for functionality.
+1AVZ is a minimalistic structrure as test case for functionality.
 
 ```bash
 pdb_fetch 1AVZ > 1AVZ.pdb
@@ -74,7 +74,7 @@ https://github.com/project-gemmi/gemmi
 bash ManifoldX PDB-reference chainA chainB
 ```
 ## Results and Ouput Files
-
+Output demonstrated on our bench mark structure 
 
 ## Troubleshooting
 
