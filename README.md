@@ -88,10 +88,15 @@ destabilizing mutations.
 ```plaintext
 output-1AVZ-reres-A-B/
 ├── 1AVZ-reres.pdb
-├──
+├── 1AVZ-raw.fasta
 ├── output/
-│   ├── file4.txt
-│   └── file5.txt
+│   ├── AAA11/
+│   │   ├──
+│   │   ├──
+│   │   ├── 
+│   ├── AAB13/
+│   ├── interactions-summary.tsv
+│   └── indiv_interactions-summary.tsv
 ├── folder3/
 └── file6.txt
 ```
