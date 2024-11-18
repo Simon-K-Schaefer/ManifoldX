@@ -80,7 +80,7 @@ Renumber every residue per chain (PDB Tools)
   |
 Repair Files (FoldX:Optimize)
   |
-Create FoldX config files for every Pos ()
+Create FoldX config files (single-config-creator.pl)
   |
 Run FoldX PSSM in parallel (GNU parallel)
   |
