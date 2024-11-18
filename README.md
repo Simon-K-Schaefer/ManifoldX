@@ -123,9 +123,8 @@ The main output folder contains clean and renumbered structure files (1AVZ-reres
 the sequences for every chain of the structure file.
 
 The output folder contains the FoldX energy outputs for every position and two summary files:
-for the interaction energies (interactions-summary.tsv) and energies within the interacting chains (indiv_interactions-summary.tsv) as indicator for
-destabilizing mutations.
-
+* Interaction energies for the protein protein interface (interactions-summary.tsv)
+* Energies within the interacting chains as indicator fordestabilizing mutations (indiv_interactions-summary.tsv) 
 ```plaintext
 output-1AVZ-reres-A-B/
 ├── 1AVZ-reres.pdb
