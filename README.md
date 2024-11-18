@@ -130,9 +130,8 @@ output-1AVZ-reres-A-B/
 ├── 1AVZ-raw.fasta
 ├── output/
 │   ├── AAA11/
-│   │   ├──
-│   │   ├──
-│   │   ├── 
+│   │   ├──Interaction_*_AC.fxout
+│   │   └──Interaction_*_AC.fxout
 │   ├── AAB13/
 │   ├── interactions-summary.tsv
 │   └── indiv_interactions-summary.tsv
