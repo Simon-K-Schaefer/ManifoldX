@@ -78,7 +78,7 @@ Validate Files (PDB Tools)
   |
 Renumber every residue per chain (PDB Tools)
   |
-Repair Files (FoldX:Optimize)
+Repair files (FoldX:Optimize)
   |
 Create FoldX config files (single-config-creator.pl)
   |
