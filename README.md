@@ -4,7 +4,8 @@ This Version of the pipeline utilises the FoldX PSSM algoritm to substitute subs
 both proteins. This identifies important interaction residues in an automated way to map protein protein interfaces. 
 
 ## Hardware Requirements
-ManifoldX scales with CPU core counts and hardware requirements scale accordingly.
+ManifoldX scales with CPU core counts and hardware requirements scale accordingly. The software produces a large
+output data folder containing all mutant structures and sufficent free disk space (10gb+) is highly recommended to avoid errors.
 
 ## Dependencies
 #requires FoldX and a valid FoldX license as well as :
