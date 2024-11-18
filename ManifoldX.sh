@@ -173,6 +173,7 @@ mv OP_*.fxout ./output/
 cp ./Alascan.pl ./output/
 cp ./Indivscan.pl ./output/
 cp ./gliding_window.py ./output/
+cp ./$file.pdb ./output/
 
 
 ### energy analysis
@@ -188,7 +189,7 @@ mv ./output output-$file-$chain1-$chain2/
 ##cleanup
 rm -r ./config/
 rm $file.fasta
-rm $file.pdb
+rm $file.pdb 
 rm $file-reres.pdb
 
 
