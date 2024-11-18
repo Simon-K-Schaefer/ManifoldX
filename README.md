@@ -71,14 +71,17 @@ Repository:
 https://github.com/project-gemmi/gemmi
 
 ```bash
-bash ManifoldX PDB-reference chainA chainB
+bash ManifoldX.sh PDB-reference chainA chainB
 ```
 ## Results and Ouput Files
 Output demonstrated on our bench mark structure 
 
 ## Troubleshooting
 
-THe FoldX license is not perpetual and requires annual downloads of a refreshed license.
+#THe FoldX license is not perpetual and requires annual downloads of a refreshed license.
+
+#The Pipeline produces intermediary structures as output. This requires large amount of disk space.
+It is therefore reccomended to export output files and delete intermediary structures.
 
 ## Authors
 Simon Schäfer
