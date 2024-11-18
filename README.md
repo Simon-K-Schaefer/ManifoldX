@@ -78,11 +78,7 @@ pdb_fetch PDB-reference > PDB-reference.pdb
 bash ManifoldX.sh PDB-reference chainA chainB
 ```
 ## Results and Ouput Files
-Output demonstrated on our bench mark structure 
-
-# Project Overview
-
-This is an example of a generic folder tree structure:
+Output demonstrated on our bench mark 1AVZ.pdb
 
 ```plaintext
 root/
