@@ -78,7 +78,7 @@ Validate Files (PDB Tools)
   v
 Repair Files (FoldX:Optimize)
   v
-Create FoldX files for parallel workflows ()
+Create FoldX config files for every Pos ()
   v
 Run FoldX in parallel (GNU parallel)
   +-----------------------+
