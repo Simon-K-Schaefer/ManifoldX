@@ -135,14 +135,12 @@ output-1AVZ-reres-A-B/
 │   │   └──Interaction_*_AC.fxout
 │   ├── AAB13/
 │   ├── interactions-summary.tsv
-│   └── indiv_interactions-summary.tsv
-├── folder3/
-└── file6.txt
+└── └── indiv_interactions-summary.tsv
 ```
 
 ## Troubleshooting
 
-* THe FoldX license is not perpetual and requires annual redownloads of FoldX with a refreshed license.
+* The FoldX license is not perpetual and requires annual redownloads of FoldX with a refreshed license.
   The license runs out every year at 31th of December.
 
 * The Pipeline produces intermediary structures as output. This requires large amount of disk space.
@@ -151,6 +149,6 @@ It is therefore reccomended to export output files and delete intermediary struc
 * Chains names can be different between PDB files and fasta files in the NCBI PDB.
 
 ## Authors
-Simon Schäfer
-Anselm Horn
+Simon Schäfer,
+Anselm Horn,
 Manuel Deubler
