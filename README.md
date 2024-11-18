@@ -72,13 +72,13 @@ bash ManifoldX.sh 1AVZ A B
 ## Pipekine workflow
 
 ```plaintext
-Start
+ManifoldX.sh
   |
   v
-Input Data
+Validate Files (PDB Tools)
   |
   v
-Preprocessing
+Repair Files (FoldX:Optimize)
   |
   +-----------------------+
   |                       |
@@ -91,10 +91,7 @@ Step A1 (Parallel)     Step A2 (Parallel)
 Merge Results
   |
   v
-Postprocessing
-  |
-  v
-Output
+Output-folder
 ```
 
 ## How to use
