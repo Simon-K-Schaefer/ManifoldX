@@ -62,6 +62,7 @@ bash ManifoldX.sh 1AVZ A B
 
 ## Pipekine workflow
 
+```plaintext
 Start
   |
   v
@@ -85,7 +86,7 @@ Postprocessing
   |
   v
 Output
-
+```
 
 ## How to use
 
