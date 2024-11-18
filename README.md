@@ -78,7 +78,7 @@ pdb_fetch PDB-reference > PDB-reference.pdb
 bash ManifoldX.sh PDB-reference chainA chainB
 ```
 ## Results and Ouput Files
-Output demonstrated on our bench mark 1AVZ.pdb
+Output demonstrated on our bench mark strucutre 1AVZ.pdb
 
 ```plaintext
 root/
