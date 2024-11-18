@@ -60,7 +60,7 @@ open(READ1,"$input_file1") || die "error:cant open file";
 #create output suffix from input file
 $output_suffix1 = substr($input_file1,0,int((length($input_file1)))-4);
 
-open (FILE, "> $output_suffix1-summary.csv") || die "problem opening output file\n";
+open (FILE, "> $output_suffix1-summary.tsv") || die "problem opening output file\n";
 
 print FILE "PDB	Chain	Pos	Res	Mut	WT_energy	MT_energy	DIF_energy\n";
 #print "PDB	Chain+Pos	Res	Mut	WT_energy	MT_energy	DIF_energy\n";
