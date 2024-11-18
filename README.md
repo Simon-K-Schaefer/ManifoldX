@@ -70,6 +70,8 @@ https://project-gemmi.github.io/wasm/convert/cif2pdb.html
 Repository:
 https://github.com/project-gemmi/gemmi
 
+ManifoldX has no GUI and is run via command line:
+
 ```bash
 bash ManifoldX.sh PDB-reference chainA chainB
 ```
@@ -78,10 +80,13 @@ Output demonstrated on our bench mark structure
 
 ## Troubleshooting
 
-* THe FoldX license is not perpetual and requires annual downloads of a refreshed license.
+* THe FoldX license is not perpetual and requires annual redownloads of FOldX with a refreshed license.
+  The license runs out every year at 31th of December.
 
 * The Pipeline produces intermediary structures as output. This requires large amount of disk space.
 It is therefore reccomended to export output files and delete intermediary structures.
+
+* Chains names can be different between PDB files and fasta files in the NCBI PDB.
 
 ## Authors
 Simon Schäfer
