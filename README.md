@@ -76,11 +76,13 @@ ManifoldX.sh
   |
 Validate Files (PDB Tools)
   |
+Renumber every residue per chain (PDB Tools)
+  |
 Repair Files (FoldX:Optimize)
   |
 Create FoldX config files for every Pos ()
   |
-Run FoldX in parallel (GNU parallel)
+Run FoldX PSSM in parallel (GNU parallel)
   |
   +-----------------------+
   |                       |
@@ -88,10 +90,11 @@ PSSM (Parallel)      PSSM (Parallel)
   |                       |
   +-----------+-----------+
   |
-Merge Results ()
+Merge Results for interaction energies (interactions-summary.tsv)
   |
-  v
-Output-folder
+Merge Results for intrachain energies (indiv_interactions-summary.tsv)
+  |
+Copy output data to Output-folder and clean up
 ```
 
 ## How to use
