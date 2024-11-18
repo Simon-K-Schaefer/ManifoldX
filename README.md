@@ -73,22 +73,21 @@ bash ManifoldX.sh 1AVZ A B
 
 ```plaintext
 ManifoldX.sh
-  v
+  |
 Validate Files (PDB Tools)
-  v
+  |
 Repair Files (FoldX:Optimize)
-  v
+  |
 Create FoldX config files for every Pos ()
-  v
+  |
 Run FoldX in parallel (GNU parallel)
+  |
   +-----------------------+
   |                       |
-  v                       v
 PSSM (Parallel)      PSSM (Parallel)
   |                       |
   +-----------+-----------+
-              |
-              v
+  |
 Merge Results ()
   |
   v
