@@ -78,9 +78,9 @@ Output demonstrated on our bench mark structure
 
 ## Troubleshooting
 
-#THe FoldX license is not perpetual and requires annual downloads of a refreshed license.
+* THe FoldX license is not perpetual and requires annual downloads of a refreshed license.
 
-#The Pipeline produces intermediary structures as output. This requires large amount of disk space.
+* The Pipeline produces intermediary structures as output. This requires large amount of disk space.
 It is therefore reccomended to export output files and delete intermediary structures.
 
 ## Authors
