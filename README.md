@@ -60,7 +60,7 @@ threads=5
 
 ## Validate Install
 
-open a shell in the FolX/ManifoldX folder and run the test script to validate the Installation.
+Open a shell in the FolX/ManifoldX folder and run the test script to validate the Installation.
 1AVZ is a minimalistic structrure as test case for functionality.
 
 ```bash
