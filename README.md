@@ -73,6 +73,8 @@ https://github.com/project-gemmi/gemmi
 ManifoldX has no GUI and is run via command line:
 
 ```bash
+pdb_fetch PDB-reference > PDB-reference.pdb
+
 bash ManifoldX.sh PDB-reference chainA chainB
 ```
 ## Results and Ouput Files
