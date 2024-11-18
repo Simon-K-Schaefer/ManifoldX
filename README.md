@@ -60,6 +60,33 @@ pdb_fetch 1AVZ > 1AVZ.pdb
 bash ManifoldX.sh 1AVZ A B
 ```
 
+## Pipekine workflow
+
+Start
+  |
+  v
+Input Data
+  |
+  v
+Preprocessing
+  |
+  +-----------------------+
+  |                       |
+  v                       v
+Step A1 (Parallel)     Step A2 (Parallel)
+  |                       |
+  +-----------+-----------+
+              |
+              v
+Merge Results
+  |
+  v
+Postprocessing
+  |
+  v
+Output
+
+
 ## How to use
 
 The pipeline requires input files in the pdb file format. This is a FoldX dependency requirement.
@@ -78,6 +105,7 @@ pdb_fetch PDB-reference > PDB-reference.pdb
 
 bash ManifoldX.sh PDB-reference chainA chainB
 ```
+
 ## Results and Ouput Files
 Output demonstrated on our bench mark strucutre 1AVZ.pdb.
 The main output folder contains clean and renumbered structure files (1AVZ-reres.pdb) and fasta files (1AVZ-raw.fasta) containing
