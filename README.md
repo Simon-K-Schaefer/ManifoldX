@@ -59,10 +59,12 @@ threads=5
 #----------------------------------------
 ```
 
-## Validate Install
+## Validate Installation
 
-Open a shell in the FolX/ManifoldX folder and run the test script to validate the installation.
-1AVZ is a minimalistic structrure as test case for functionality.
+Open a shell in the FolX/ManifoldX folder and run the test script as described below to validate the installation.
+1AVZ is a minimalistic structrure as test case for functionality. Ideally no error messages should occur and 
+the folder output-1AVZ-reres-A-B/output/ should contain the file interactions-summary.tsv.
+
 
 ```bash
 pdb_fetch 1AVZ > 1AVZ.pdb
