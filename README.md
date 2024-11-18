@@ -80,6 +80,8 @@ bash ManifoldX.sh PDB-reference chainA chainB
 ## Results and Ouput Files
 Output demonstrated on our bench mark structure 
 
+root/ ├── folder1/ │ ├── subfolder1/ │ │ ├── file1.txt │ │ └── file2.txt │ ├── subfolder2/ │ │ └── file3.txt ├── folder2/ │ ├── file4.txt │ └── file5.txt ├── folder3/ └── file6.txt
+
 ## Troubleshooting
 
 * THe FoldX license is not perpetual and requires annual redownloads of FOldX with a refreshed license.
