@@ -100,7 +100,7 @@ Copy output data to output-folder and clean up
 ## How to use
 
 The pipeline requires input files in the pdb file format. This is a FoldX dependency requirement.
-\n Newer PDB entries wiht only mmcif entries can be converted utilising the gemmi tool.
+Newer PDB entries wiht only mmcif entries can be converted utilising the gemmi tool.
 
 Online Converter Tool:
 https://project-gemmi.github.io/wasm/convert/cif2pdb.html
