@@ -4,8 +4,9 @@ This Version of the pipeline utilises the FoldX PSSM algoritm to substitute subs
 both proteins. This identifies important interaction residues in an automated way to map protein protein interfaces. 
 
 ## Hardware Requirements
-ManifoldX scales with CPU core counts and hardware requirements scale accordingly. The software produces a large
+ManifoldX scales with CPU core counts and hardware requirements calculation times scales accordingly. The software produces a large
 output data folder containing all mutant structures and sufficent free disk space (10gb+) is highly recommended to avoid errors.
+Software was tested for Ubuntu 20 LTS and newer versions. 
 
 ## Dependencies
 #requires FoldX and a valid FoldX license as well as :
@@ -60,7 +61,7 @@ threads=5
 
 ## Validate Install
 
-Open a shell in the FolX/ManifoldX folder and run the test script to validate the Installation.
+Open a shell in the FolX/ManifoldX folder and run the test script to validate the installation.
 1AVZ is a minimalistic structrure as test case for functionality.
 
 ```bash
@@ -146,7 +147,7 @@ output-1AVZ-reres-A-B/
 * The Pipeline produces intermediary structures as output. This requires large amount of disk space.
 It is therefore reccomended to export output files and delete intermediary structures.
 
-* Chains names can be different between PDB files and fasta files in the NCBI PDB.
+* Chain names can be different between PDB files and fasta files in the NCBI PDB.
 
 ## Authors
 Simon Schäfer,
