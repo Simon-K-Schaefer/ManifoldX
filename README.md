@@ -37,7 +37,7 @@ apt-get install parallel
 * Download FoldX and unzip to target location.
 * Download ManifoldX and unzip files in the same folder as FoldX.
 * Rename foldx-VersionNR to foldx
-* make foldx executable with the following command
+* make Foldx executable with the following command
   
 ```bash
 chmod +x ./foldx
