@@ -49,6 +49,15 @@ chmod +x ./foldx
 
 * Modify utilised cores to according to system specificications in the header section of ManifoldX.sh (Standard is set to 5 threads).
 
+```plaintext
+#----------------------------------------
+#----------------------------------------
+# Set your desired number of threads here
+threads=5
+#----------------------------------------
+#----------------------------------------
+```
+
 ## Validate Install
 
 open a shell in the FolX/ManifoldX folder and run the test script to validate the Installation.
