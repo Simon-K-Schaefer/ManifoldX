@@ -69,7 +69,7 @@ pdb_fetch 1AVZ > 1AVZ.pdb
 bash ManifoldX.sh 1AVZ A B
 ```
 
-## Pipekine workflow
+## Pipeline workflow
 
 ```plaintext
 ManifoldX.sh
@@ -86,15 +86,15 @@ Run FoldX PSSM in parallel (GNU parallel)
   |
   +-----------------------+
   |                       |
-PSSM (Parallel)      PSSM (Parallel)
+PSSM (parallel)      PSSM (parallel)
   |                       |
   +-----------+-----------+
   |
-Merge Results for interaction energies (interactions-summary.tsv)
+Merge results for interaction energies (interactions-summary.tsv)
   |
-Merge Results for intrachain energies (indiv_interactions-summary.tsv)
+Merge results for intrachain energies (indiv_interactions-summary.tsv)
   |
-Copy output data to Output-folder and clean up
+Copy output data to output-folder and clean up
 ```
 
 ## How to use
