@@ -97,7 +97,7 @@ root/
 
 ## Troubleshooting
 
-* THe FoldX license is not perpetual and requires annual redownloads of FOldX with a refreshed license.
+* THe FoldX license is not perpetual and requires annual redownloads of FoldX with a refreshed license.
   The license runs out every year at 31th of December.
 
 * The Pipeline produces intermediary structures as output. This requires large amount of disk space.
