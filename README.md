@@ -152,9 +152,11 @@ It is therefore reccomended to export output files and delete intermediary struc
 
 * PDB identifier must be entered without the .pdb file extension unless stated outherwise.
 
-* The pipeline contains a pdb file fetch step that is commented out since PDB does not provide pdb files for new structures. 
+* The pipeline contains a pdb file fetch step that is commented out since the NCBI PDB does not provide pdb files for new structures anymore. 
 
 * The pipeline works with FoldX5.0 and FoldX5.1 which produces different output energies (different forefields).
+
+* If the PDB fetch step fails fetch structure file manually from the NCBI pdb (mmcif/PDBX) and convert as described above.
 
 ## Authors
 Simon Schäfer,
