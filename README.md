@@ -140,7 +140,7 @@ output-1AVZ-reres-A-B/
 └── └── indiv_interactions-summary.tsv
 ```
 
-## Troubleshooting
+## Troubleshooting and additional information
 
 * The FoldX license is not perpetual and requires annual redownloads of FoldX with a refreshed license.
   The license runs out every year at 31th of December.
@@ -149,6 +149,12 @@ output-1AVZ-reres-A-B/
 It is therefore reccomended to export output files and delete intermediary structures.
 
 * Chain names can be different between PDB files and fasta files in the NCBI PDB.
+
+* PDB identifier must be entered without the .pdb file extension unless stated outherwise.
+
+* The pipeline contains a pdb file fetch step that is commented out since PDB does not provide pdb files for new structures. 
+
+* The pipeline works with FoldX5.0 and FoldX5.1 which produces different output energies (different forefields).
 
 ## Authors
 Simon Schäfer,
