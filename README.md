@@ -126,7 +126,7 @@ the sequences for every chain of the structure file.
 
 The output folder contains the FoldX energy outputs for every position and two summary files:
 * Interaction energies for the protein protein interface (interactions-summary.tsv)
-* Energies within the interacting chains as indicator fordestabilizing mutations (indiv_interactions-summary.tsv) 
+* Energies within the interacting chains as indicator for destabilizing mutations (indiv_interactions-summary.tsv) 
 ```plaintext
 output-1AVZ-reres-A-B/
 ├── 1AVZ-reres.pdb
@@ -154,7 +154,7 @@ It is therefore reccomended to export output files and delete intermediary struc
 
 * The pipeline contains a pdb file fetch step that is commented out since the NCBI PDB does not provide pdb files for new structures anymore. 
 
-* The pipeline works with FoldX5.0 and FoldX5.1 which produces different output energies (different forefields).
+* The pipeline works with FoldX5.0 and FoldX5.1 which produces different output energies (different forcefields).
 
 * If the PDB fetch step fails fetch structure file manually from the NCBI pdb (mmcif/PDBX) and convert as described above.
 
