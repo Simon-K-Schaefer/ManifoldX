@@ -160,7 +160,7 @@ It is therefore reccomended to export output files and delete intermediary struc
 
 ## Authors
 Simon Schäfer,
-Anselm Horn,
+Anselm H.C. Horn,
 Manuel Deubler
 
 ## Aknowledgements
