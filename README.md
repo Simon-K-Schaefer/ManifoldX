@@ -156,7 +156,7 @@ It is therefore reccomended to export output files and delete intermediary struc
 
 * The pipeline works with FoldX5.0 and FoldX5.1 which produces different output energies (different forcefields).
 
-* If the PDB fetch step fails fetch structure file manually from the NCBI pdb (mmcif/PDBX) and convert as described above https://github.com/Simon-K-Schaefer/ManifoldX?tab=readme-ov-file#how-to-use.
+* If the PDB fetch step fails fetch structure file manually from the NCBI pdb (mmcif/PDBX) and convert as described above.
 
 ## Authors
 Simon Schäfer,
