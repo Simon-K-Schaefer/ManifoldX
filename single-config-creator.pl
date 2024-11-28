@@ -22,8 +22,21 @@ my @fasta80;
 my %hash;
 my @chain1;
 my @chain2;
+
+
+
+#############################################################
+## The area below can be edited to adapt FoldX workflow    ##
+#############################################################
+
+#Switch between Ala Scan and Full Amino Acid Scan
 my @aminoacids = ("A");
 #my @aminoacids = ("A","C","D","E","F","G","H","I","K","L","M","N","P","Q","R","S","T","V","W","Y");
+
+#############################################################
+## The area above can be edited to adapt FoldX workflow    ##
+#############################################################
+
 my $chaincounter;
 
 #input via commandline
@@ -81,12 +94,18 @@ $counter1++;
 
 $chaincounter = $_;
 
+
+#############################################################
+## The area below can be edited to adapt FoldX workflow    ##
+#############################################################
 foreach (@aminoacids){
 
 #open output file
 open (FILE, ">config/$_$chaincounter$chain1$counter1") || die "problem opening $output_file\n";
 
+#FoldX command: PSSM in this case
 print FILE "command=Pssm\n";
+
 print FILE "pdb=$output_suffix-reres.pdb\n";
 print FILE "positions=";
 
@@ -101,6 +120,11 @@ print FILE "output-dir=output/$_$chaincounter$chain1$counter1\n";
 close (FILE);
 
 }
+
+#############################################################
+## The area above can be edited to adapt FoldX workflow    ##
+#############################################################
+
 
 }
 
