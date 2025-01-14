@@ -161,9 +161,17 @@ mkdir output/$f
 done
 
 
+######################################################
+# The step below can be exported to run on HPC system  
+######################################################
+
 ### run foldX for every config file as loop - neccessary because of bug in foldX batch modes
 ls ./config/* | parallel -j "$threads" ./foldx -f
 wait
+
+####################################################
+# The step above can be exported to run on HPC system  
+####################################################
 
 ### move output from optimization step
 mv Unrecognized_molecules.txt ./output/
