@@ -141,7 +141,9 @@ output-1AVZ-reres-A-B/
 ```
 
 ## Ala scan and 20AA scan
-The base version of ManifoldX subtitutes 
+The base version of ManifoldX subtitutes every resdiue with Ala to identify important residue due to loss of 
+interaction energy. ManifoldX_20AA substitutes every residues with all 20 natural AA to create variants possible
+improvements in interaction energy or identify disruptive substitutions.
 
 ## Troubleshooting and additional information
 
