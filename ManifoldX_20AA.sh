@@ -147,7 +147,7 @@ mkdir ./output/
 ### create config file for each residue from cleaned fasta
 ### no AA diff between fasta and pdb
 
-perl ./single-config-creator.pl $file".fasta" $chain1 $chain2
+perl ./single-config-creator_20AA.pl $file".fasta" $chain1 $chain2
 
 
 
