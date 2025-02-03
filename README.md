@@ -141,7 +141,7 @@ output-1AVZ-reres-A-B/
 ```
 
 ## Ala scan and 20AA scan
-
+The base version of ManifoldX subtitutes 
 
 ## Troubleshooting and additional information
 
