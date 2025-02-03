@@ -30,8 +30,8 @@ my @chain2;
 #############################################################
 
 #Switch between Ala Scan and Full Amino Acid Scan
-my @aminoacids = ("A");
-#my @aminoacids = ("A","C","D","E","F","G","H","I","K","L","M","N","P","Q","R","S","T","V","W","Y");
+#my @aminoacids = ("A");
+my @aminoacids = ("A","C","D","E","F","G","H","I","K","L","M","N","P","Q","R","S","T","V","W","Y");
 
 #############################################################
 ## The area above can be edited to adapt FoldX workflow    ##
