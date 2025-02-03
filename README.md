@@ -4,7 +4,7 @@ This Version of the pipeline utilises the FoldX PSSM algoritm to substitute subs
 both proteins. This identifies important interaction residues in an automated way to map protein protein interfaces. 
 
 ## Hardware Requirements
-ManifoldX scales with CPU core counts and hardware requirements calculation times scales accordingly. The software produces a large
+ManifoldX scales with CPU core counts and hardware requirements and calculation times scales accordingly. The software produces a large
 output data folder containing all mutant structures and sufficent free disk space (10gb+) is highly recommended to avoid errors.
 Software was tested for Ubuntu 20 LTS and newer versions. 
 
@@ -139,6 +139,9 @@ output-1AVZ-reres-A-B/
 │   ├── interactions-summary.tsv
 └── └── indiv_interactions-summary.tsv
 ```
+
+## Ala scan and 20AA scan
+
 
 ## Troubleshooting and additional information
 
