@@ -145,6 +145,13 @@ The base version of ManifoldX subtitutes every resdiue with Ala to identify impo
 interaction energy. ManifoldX_20AA substitutes every residues with all 20 natural AA to create variants possible
 improvements in interaction energy or identify disruptive substitutions.
 
+
+```bash
+pdb_fetch PDB-reference > PDB-reference.pdb
+
+bash ManifoldX_20AA.sh PDB-reference chainA chainB
+```
+
 ## Troubleshooting and additional information
 
 * The FoldX license is not perpetual and requires annual redownloads of FoldX with a refreshed license.
