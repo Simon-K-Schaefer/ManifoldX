@@ -69,7 +69,7 @@ the folder output-1AVZ-reres-A-B/output/ should contain the file interactions-su
 ```bash
 pdb_fetch 1AVZ > 1AVZ.pdb
 
-bash ManifoldX.sh 1AVZ A B
+bash ManifoldX.sh 1AVZ.pdb A B
 ```
 
 ## Pipeline workflow
@@ -114,9 +114,9 @@ https://github.com/project-gemmi/gemmi
 ManifoldX has no GUI and is run via command line:
 
 ```bash
-pdb_fetch PDB-reference > PDB-reference.pdb
+pdb_fetch PDB-reference > PDB_file.pdb
 
-bash ManifoldX.sh PDB-reference chainA chainB
+bash ManifoldX.sh PDB_file.pdb chainA chainB
 ```
 
 ## Results and Ouput Files
@@ -149,7 +149,7 @@ improvements in interaction energy or identify disruptive substitutions.
 ```bash
 pdb_fetch PDB-reference > PDB-reference.pdb
 
-bash ManifoldX_20AA.sh PDB-reference chainA chainB
+bash ManifoldX_20AA.sh PDB_file.pdb chainA chainB
 ```
 
 ## Troubleshooting and additional information
@@ -163,8 +163,6 @@ bash ManifoldX_20AA.sh PDB-reference chainA chainB
 It is therefore reccomended to export output summary files and delete intermediary structures.
 
 * Chain names can be different between PDB files and fasta files for the same NCBI PDB entry.
-
-* PDB filenames must be entered without the .pdb file extension unless stated outherwise.
 
 * The pipeline contains a pdb file fetch step that is commented out since the NCBI PDB does not provide pdb files for new structures anymore. 
 
