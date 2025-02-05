@@ -142,8 +142,8 @@ output-1AVZ-reres-A-B/
 
 ## Ala scan and 20AA scan
 The base version of ManifoldX subtitutes every resdiue with Ala to identify important residue due to loss of 
-interaction energy. ManifoldX_20AA substitutes every residues with all 20 natural AA to create variants possible
-improvements in interaction energy or identify disruptive substitutions.
+interaction energy. ManifoldX_20AA substitutes every residues with all 20 natural AA to create protein variants with possible interaction energy 
+improvements or identify disruptive substitutions for binding or strucutural stability. The Ala scan is roughly 20-fold faster than the 20AA substitution. 
 
 
 ```bash
