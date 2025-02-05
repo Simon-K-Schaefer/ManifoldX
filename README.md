@@ -103,7 +103,7 @@ Copy output data to output-folder and clean up
 ## How to use
 
 The pipeline requires input files in the pdb file format. This is a FoldX dependency.
-Newer PDB entries wiht only mmcif entries can be converted utilising the gemmi tool.
+Newer PDB entries with only mmcif entries can be converted utilising the gemmi tool.
 
 Online Converter Tool:
 https://project-gemmi.github.io/wasm/convert/cif2pdb.html
@@ -157,16 +157,16 @@ bash ManifoldX_20AA.sh PDB-reference chainA chainB
 * The FoldX license is not perpetual and requires annual redownloads of FoldX with a refreshed license.
   The license runs out every year at 31th of December.
 
+* The pipeline works with FoldX5.0 and FoldX5.1 which produces different output energies (different forcefields).
+
 * The Pipeline produces intermediary structures as output. This requires large amount of disk space.
-It is therefore reccomended to export output files and delete intermediary structures.
+It is therefore reccomended to export output summary files and delete intermediary structures.
 
-* Chain names can be different between PDB files and fasta files in the NCBI PDB.
+* Chain names can be different between PDB files and fasta files for the same NCBI PDB entry.
 
-* PDB identifier must be entered without the .pdb file extension unless stated outherwise.
+* PDB filenames must be entered without the .pdb file extension unless stated outherwise.
 
 * The pipeline contains a pdb file fetch step that is commented out since the NCBI PDB does not provide pdb files for new structures anymore. 
-
-* The pipeline works with FoldX5.0 and FoldX5.1 which produces different output energies (different forcefields).
 
 * If the PDB fetch step fails fetch structure file manually from the NCBI pdb (mmcif/PDBX) and convert as described above.
 
