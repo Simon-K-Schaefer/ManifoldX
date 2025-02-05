@@ -22,7 +22,14 @@ threads=5
 #----------------------------------------
 #----------------------------------------
 
+# Get the first argument
 file="$1"
+
+# Check if the file name contains a dot
+if [[ "$file" == *.* ]]; then
+    # Remove the extension (everything after the last dot)
+    file="${file%.*}"
+fi
 chain1=$2
 chain2=$3
 
