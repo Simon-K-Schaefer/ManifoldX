@@ -103,8 +103,8 @@ Copy output data to output-folder and clean up
 ## How to use
 
 The pipeline requires input files in the pdb file format containing at least two protein chains. This is a FoldX dependency.
-Additional protein chains do not hinder the workflow and may improve the overall analysis accurary.
-Larger additional structures pressent in the file can significantly increase calculation time.
+Additional protein chains do not hinder the workflow and may improve the overall analysis accuracy.
+Larger additional structures present in the file can significantly increase calculation time.
 
 Newer PDB entries with only mmcif entries can be converted utilising the gemmi tool.
 
