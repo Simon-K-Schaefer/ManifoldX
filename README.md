@@ -14,7 +14,6 @@ Software was tested for Ubuntu 20 LTS and newer versions.
 https://foldxsuite.crg.eu/
 
 #requires pdb-tools
-http://www.bonvinlab.org/pdb-tools/
 
 ```bash
 pip install pdb-tools
