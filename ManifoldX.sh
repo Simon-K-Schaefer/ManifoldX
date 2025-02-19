@@ -189,6 +189,7 @@ cp ./Alascan.pl ./output/
 cp ./Indivscan.pl ./output/
 cp ./$file.pdb ./output/
 cp ./remap.py ./output/
+cp ./remap_indiv.py ./output/
 
 ### energy analysis
 cd output/
@@ -197,6 +198,7 @@ grep "" ./*/Indiv_energies_*_AC.fxout > indiv_interactions.txt
 perl Alascan.pl interactions.txt
 perl Indivscan.pl indiv_interactions.txt
 python3 ./remap.py ./interactions-summary.tsv ./$file.pdb
+python3 ./remap_indiv.py ./indiv_interactions-summary.tsv ./$file.pdb
 cd ..
 mv ./output output-$file-$chain1-$chain2/
 
