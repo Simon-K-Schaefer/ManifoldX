@@ -35,6 +35,12 @@ cpan Sort::Versions
 ```bash
 apt-get install parallel
 ```
+#requires pandas and biopython
+http://www.bonvinlab.org/pdb-tools/
+```bash
+pip install pandas biopython
+```
+
 ## How to Install
 * Download FoldX and unzip to target location.
 * Download ManifoldX and unzip files in the same folder as FoldX.
