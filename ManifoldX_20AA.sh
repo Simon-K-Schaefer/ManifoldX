@@ -188,8 +188,8 @@ mv OP_*.fxout ./output/
 ### move tools
 cp ./Alascan.pl ./output/
 cp ./Indivscan.pl ./output/
-cp ./gliding_window.py ./output/
 cp ./$file.pdb ./output/
+cp ./remap.py ./output/
 
 
 ### energy analysis
@@ -198,7 +198,7 @@ grep "" ./*/Interaction_*_AC.fxout > interactions.txt
 grep "" ./*/Indiv_energies_*_AC.fxout > indiv_interactions.txt
 perl Alascan.pl interactions.txt
 perl Indivscan.pl indiv_interactions.txt
-#python3 ./gliding_window.py interactions-summary.csv 
+python3 ./remap.py interactions-summary.csv ./$file.pdb
 cd ..
 mv ./output output-$file-$chain1-$chain2/
 
