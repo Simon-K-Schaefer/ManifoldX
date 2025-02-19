@@ -198,7 +198,7 @@ grep "" ./*/Interaction_*_AC.fxout > interactions.txt
 grep "" ./*/Indiv_energies_*_AC.fxout > indiv_interactions.txt
 perl Alascan.pl interactions.txt
 perl Indivscan.pl indiv_interactions.txt
-python3 ./remap.py interactions-summary.csv ./$file.pdb
+python3 ./remap.py interactions-summary.tsv ./$file.pdb
 cd ..
 mv ./output output-$file-$chain1-$chain2/
 
