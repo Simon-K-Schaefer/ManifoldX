@@ -155,7 +155,7 @@ output-[PDB-file]-reres-A-B/
 ## Ala scan and 20AA scan
 The base version of ManifoldX subtitutes every resdiue with Ala to identify important residue due to loss of 
 interaction energy. ManifoldX_20AA substitutes every residues with all 20 natural AA to create protein variants with possible interaction energy 
-improvements or identify disruptive substitutions for binding or strucutural stability. The Ala scan is roughly 20-fold faster than the 20AA substitution. 
+improvements or identify disruptive substitutions for binding or strucutural stability. ManifoldX_20AA contains the Ala Scan as subset. The Ala scan is roughly 20-fold faster than the 20AA substitution. 
 
 
 ```bash
