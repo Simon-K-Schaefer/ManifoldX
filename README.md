@@ -102,6 +102,10 @@ Merge results for interaction energies (interactions-summary.tsv)
   |
 Merge results for intrachain energies (indiv_interactions-summary.tsv)
   |
+Map interaction results back to PDB res numbers ([PDB-file]_indiv_interactions-summary.tsv)
+  |
+Map intrachain results back to PDB res numbers ([PDB-file]_indiv_interactions-summary.tsv)
+  |
 Copy output data to output-folder and clean up
 ```
 
@@ -136,16 +140,16 @@ The output folder contains the FoldX energy outputs for every position and two s
 * Interaction energies for the protein protein interface (interactions-summary.tsv)
 * Energies within the interacting chains as indicator for destabilizing mutations (indiv_interactions-summary.tsv) 
 ```plaintext
-output-1AVZ-reres-A-B/
-├── 1AVZ-reres.pdb
-├── 1AVZ-raw.fasta
+output-[PDB-file]-reres-A-B/
+├── [PDB-file]-reres.pdb
+├── [PDB-file].fasta
 ├── output/
 │   ├── AAA11/
 │   │   ├──Interaction_*_AC.fxout
 │   │   └──Interaction_*_AC.fxout
 │   ├── AAB13/
-│   ├── interactions-summary.tsv
-└── └── indiv_interactions-summary.tsv
+│   ├── [PDB-file]_interactions-summary.tsv
+└── └── [PDB-file]_indiv_interactions-summary.tsv
 ```
 
 ## Ala scan and 20AA scan
