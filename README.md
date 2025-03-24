@@ -1,12 +1,12 @@
 # ManifoldX
-A wrapper and analysis pipeline for parallelized FoldX workflows for high perfomance computing (HPC) to analyse 3 dimensional protein complex structures. The pipeline involves file cleanup and repair, automated data curation, and a tabular summary of results.
-This Version of the pipeline utilises the FoldX PSSM algoritm to substitute subsequently every position in 2 interacting proteins chains with Ala or alternatively with every of the 20 
+A wrapper and analysis pipeline for parallelized FoldX workflows for high performance computing (HPC) to analyse 3 dimensional protein complex structures. The pipeline involves file cleanup and repair, automated data curation, and a tabular summary of results.
+This version of the pipeline utilises the FoldX PSSM algorithm to substitute subsequently every position in 2 interacting proteins chains with Ala or alternatively with each of the 20 
 natural AA to calculate the interaction energies between
-both protein chains and the influence on the stability of each chain. This identifies important interaction residues in an automated way to map protein protein interfaces. 
+both protein chains and the influence on the stability of each chain. This identifies important interaction residues in an automated way to map protein-protein interfaces. 
 
 ## Hardware Requirements
 ManifoldX scales with CPU core counts and hardware requirements and calculation times scales accordingly. The software produces a large
-output data folder containing all mutant structures and sufficent free disk space (10gb+) is highly recommended to avoid errors.
+output data folder containing all mutant structures and sufficient free disk space (10gb+) is highly recommended to avoid errors.
 Software was tested for Ubuntu 20 LTS and newer versions. 
 
 ## Dependencies
@@ -53,7 +53,7 @@ chmod +x ./foldx
 
 #Core/Thread counts have to be specified in the header section of ManifoldX.sh and ManifoldX_20AA.sh
 
-* Modify utilised cores to according to system specificications in the header section of ManifoldX.sh (Standard is set to 5 threads).
+* Modify utilised cores to according to system specifications in the header section of ManifoldX.sh (Standard is set to 5 threads).
 
 ```plaintext
 #----------------------------------------
@@ -66,8 +66,8 @@ threads=5
 
 ## Validate Installation
 
-Open a shell in the FolX/ManifoldX folder and run the test script as described below to validate the installation.
-1AVZ is a minimalistic structrure as test case for functionality. Ideally no error messages should occur and 
+Open a shell in the FoldX/ManifoldX folder and run the test script as described below to validate the installation.
+1AVZ is a minimalistic structure as test case for functionality. Ideally no error messages should occur and 
 the folder output-1AVZ-reres-A-B/output/ should contain the file interactions-summary.tsv and 1AVZ_interactions-summary.tsv.
 
 
@@ -132,7 +132,7 @@ bash ManifoldX.sh PDB_file.pdb chainA chainB
 ```
 
 ## Results and Ouput Files
-Potential output demonstrated on the minimalistic bench mark strucutre 1AVZ.pdb.
+Potential output is demonstrated on the minimalistic benchmark structure 1AVZ.pdb.
 The main output folder contains clean and renumbered structure files (1AVZ-reres.pdb) and fasta files (1AVZ-raw.fasta) containing
 the sequences for every chain of the structure file.
 
@@ -153,9 +153,9 @@ output-1AVZ-reres-A-B/
 ```
 
 ## Ala scan and 20AA scan
-The base version of ManifoldX subtitutes every resdiue with Ala to identify important residue due to loss of 
+The base version of ManifoldX substitutes every residue with Ala to identify important residue due to loss of 
 interaction energy. ManifoldX_20AA substitutes every residues with all 20 natural AA to create protein variants with possible interaction energy 
-improvements or identify disruptive substitutions for binding or strucutural stability. ManifoldX_20AA contains the Ala Scan as subset. The Ala scan is roughly 20-fold faster than the 20AA substitution. 
+improvements or identify disruptive substitutions for binding or structural stability. ManifoldX_20AA contains the Ala Scan as subset. The Ala scan is roughly 20-fold faster than the 20AA substitution. 
 
 
 ```bash
@@ -167,12 +167,12 @@ bash ManifoldX_20AA.sh PDB_file.pdb chainA chainB
 ## Troubleshooting and additional information
 
 * The FoldX license is not perpetual and requires annual redownloads of FoldX with a refreshed license.
-  The license runs out every year at 31th of December.
+  The license runs out every year at 31st of December.
 
 * The pipeline works with FoldX5.0 and FoldX5.1 which produces different output energies (different forcefields).
 
 * The Pipeline produces intermediary structures as output. This requires large amount of disk space.
-It is therefore reccomended to export output summary files and delete intermediary structures.
+It is therefore recomended to export output summary files and delete intermediary structures.
 
 * Chain names can be different between PDB files and fasta files for the same NCBI PDB entry.
 
@@ -185,7 +185,7 @@ Simon Schäfer,
 Anselm H.C. Horn,
 Manuel Deubler
 
-## Aknowledgements
+## Acknowledgements
 The authors gratefully acknowledge the scientific support and HPC resources provided by the Erlangen National High Performance Computing Center (NHR@FAU) of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU). The hardware is funded by the German Research Foundation (DFG).
 
 https://hpc.fau.de/
