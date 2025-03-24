@@ -1,5 +1,5 @@
 # ManifoldX
-A wrapper and analysis pipeline for parallelized FoldX workflows for high performance computing (HPC) to analyse 3 dimensional protein complex structures. The pipeline involves file cleanup and repair, automated data curation, and a tabular summary of results.
+A wrapper and analysis pipeline for parallelised FoldX workflows for high performance computing (HPC) to analyse 3 dimensional protein complex structures. The pipeline involves file cleanup and repair, automated data curation, and a tabular summary of results.
 This version of the pipeline utilises the FoldX PSSM algorithm to substitute subsequently every position in 2 interacting proteins chains with Ala or alternatively with each of the 20 
 natural AA to calculate the interaction energies between
 both protein chains and the influence on the stability of each chain. This identifies important interaction residues in an automated way to map protein-protein interfaces. 
@@ -10,7 +10,7 @@ output data folder containing all mutant structures and sufficient free disk spa
 Software was tested for Ubuntu 20 LTS and newer versions. 
 
 ## Dependencies
-#requires FoldX and a valid FoldX license as well as :
+#requires FoldX and a valid FoldX licence as well as :
 https://foldxsuite.crg.eu/
 
 #requires pdb-tools
@@ -138,7 +138,7 @@ the sequences for every chain of the structure file.
 
 The output folder contains the FoldX energy outputs for every position and two summary files:
 * Interaction energies for the protein protein interface ([PDB-file]_interactions-summary.tsv)
-* Energies within the interacting chains as indicator for destabilizing mutations ([PDB-file]_indiv_interactions-summary.tsv) 
+* Energies within the interacting chains as indicator for destabilising mutations ([PDB-file]_indiv_interactions-summary.tsv) 
 ```plaintext
 output-1AVZ-reres-A-B/
 ├── 1AVZ-reres.pdb
@@ -166,8 +166,8 @@ bash ManifoldX_20AA.sh PDB_file.pdb chainA chainB
 
 ## Troubleshooting and additional information
 
-* The FoldX license is not perpetual and requires annual redownloads of FoldX with a refreshed license.
-  The license runs out every year at 31st of December.
+* The FoldX licence is not perpetual and requires annual redownloads of FoldX with a refreshed licence.
+  The licence runs out every year at 31st of December.
 
 * The pipeline works with FoldX5.0 and FoldX5.1 which produces different output energies (different forcefields).
 
