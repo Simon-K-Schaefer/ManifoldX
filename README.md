@@ -13,8 +13,7 @@ Software was tested for Ubuntu 20 LTS and newer versions.
 #requires FoldX and a valid FoldX licence:
 https://foldxsuite.crg.eu/
 
-Although ManifoldX is compatible with FoldX 5.1, we recommend FoldX Version 5.0 instead afer initial evaluation of the predictive
-capabilities of FoldX 5.1 for complex structures.
+Although ManifoldX is compatible with FoldX 5.1, we recommend FoldX Version 5.0 instead after the initial evaluation of the capabilities of FoldX 5.1 for complex structures.
 
 #requires pdb-tools
 http://www.bonvinlab.org/pdb-tools/
