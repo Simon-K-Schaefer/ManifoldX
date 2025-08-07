@@ -1,6 +1,6 @@
 # ManifoldX
 A wrapper and analysis pipeline for parallelised FoldX workflows for high performance computing (HPC) to analyse 3 dimensional protein complex structures. The pipeline involves file cleanup and repair, automated data curation, and a tabular summary of results.
-This version of the pipeline utilises the FoldX PSSM algorithm to substitute subsequently every position in 2 interacting proteins chains with Ala or alternatively with each of the 20 
+This version of the pipeline utilises the FoldX PSSM algorithm to substitute subsequently every position in 2 interacting protein chains with Ala or alternatively with each of the 20 
 natural AA to calculate the interaction energies between
 both protein chains and the influence on the stability of each chain. This identifies important interaction residues in an automated way to map protein-protein interfaces. 
 
