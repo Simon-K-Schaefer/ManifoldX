@@ -26,17 +26,17 @@ pdb-tools: a swiss army knife for molecular structures. bioRxiv (2018).
 doi:10.1101/483305
 
 
-#requires Perl and the module Sort::Versions
+requires Perl and the module Sort::Versions
 
 ```bash
 cpan Sort::Versions
 ```
 
-#requires GNU parallel
+requires GNU parallel
 ```bash
 apt-get install parallel
 ```
-#requires pandas and biopython
+requires pandas and biopython
 ```bash
 pip install pandas biopython
 ```
@@ -182,7 +182,8 @@ It is therefore recomended to export output summary files and delete intermediar
 
 * If the PDB fetch step fails fetch structure file manually from the NCBI pdb (mmcif/PDBX) and convert as described above.
 
-##plot_ManifoldX — CLI (short)
+
+#plot_ManifoldX — CLI (short)
 
 Visualize per-residue ΔΔG for a selcted chain from ManifoldX output files. One figure with a full profile + one zoom panel per region.
 
