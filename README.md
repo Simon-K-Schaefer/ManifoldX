@@ -188,9 +188,9 @@ It is therefore recomended to export output summary files and delete intermediar
 Visualize per-residue ΔΔG for a selcted chain from ManifoldX output files (*_interactions-summary.tsv). One figure with a full profile + one zoom panel per region.
 
 ## Usage
-
+```bash
 python plot_ManifoldX *_interactions-summary.tsv [options]
-
+```
 Most useful options
 
 --chain B — chain ID (default: B).
