@@ -183,7 +183,7 @@ It is therefore recomended to export output summary files and delete intermediar
 * If the PDB fetch step fails fetch structure file manually from the NCBI pdb (mmcif/PDBX) and convert as described above.
 
 
-# Visualisation wiht plot_ManifoldX
+# Visualisation with plot_ManifoldX
 
 Visualize per-residue ΔΔG for a selcted chain from ManifoldX output files (*_interactions-summary.tsv). One figure with a full profile + one zoom panel per region.
 
