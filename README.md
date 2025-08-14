@@ -183,11 +183,11 @@ It is therefore recomended to export output summary files and delete intermediar
 * If the PDB fetch step fails fetch structure file manually from the NCBI pdb (mmcif/PDBX) and convert as described above.
 
 
-#plot_ManifoldX — CLI (short)
+# Visualisation wiht plot_ManifoldX
 
-Visualize per-residue ΔΔG for a selcted chain from ManifoldX output files. One figure with a full profile + one zoom panel per region.
+Visualize per-residue ΔΔG for a selcted chain from ManifoldX output files (). One figure with a full profile + one zoom panel per region.
 
-Usage
+## Usage
 
 python plot_ManifoldX <tsv> [options]
 
@@ -213,17 +213,17 @@ Input TSV must contain: chain, pos, res, dif_energy.
 
 Examples
 
-# Basic
+## Basic
 
 ```bash
 python plot_ManifoldX interactions-summary.tsv
 ```
-# Restrict to 50–200 and auto-pick 3 regions
+## Restrict to 50–200 and auto-pick 3 regions
 
 ```bash
 python plot_ManifoldX interactions-summary.tsv --start 50 --end 200 --auto-zoom 3
 ```
-# Manual regions and save to file
+## Manual regions and save to file
 
 ```bash
 python plot_ManifoldX interactions-summary.tsv \
